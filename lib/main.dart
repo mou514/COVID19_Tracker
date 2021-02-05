@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:covid19_tracker/UI/login_screen.dart';
 
-void main() {
-  runApp(MyApp());
-}
+void main() => runApp(new MaterialApp(home: Login()));
 
-class MyApp extends StatelessWidget {
+/*class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -98,7 +97,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'You have pushed the button this many times:',
+              'count:',
             ),
             Text(
               '$_counter',
@@ -114,4 +113,4 @@ class _MyHomePageState extends State<MyHomePage> {
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
-}
+}*/
